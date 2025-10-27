@@ -1,5 +1,5 @@
 
-# 🧩 Image Processing Performance Report
+#  Image Processing Performance Report
 
 ## Dataset Overview
 The dataset consists of 4 folders — **cars**, **cats**, **dogs**, and **flower** — each containing 20–30 images.  
@@ -30,7 +30,7 @@ Each image is resized to **128×128** pixels and watermarked before saving to th
 ---
 
 ## Best Configuration
-✅ **8 workers (Parallel Processing)** gave the best result with **~2.8× speedup** over sequential execution.  
+ **8 workers (Parallel Processing)** gave the best result with **~2.8× speedup** over sequential execution.  
 This is because the workload was efficiently divided among multiple CPU cores, reducing total runtime without excessive overhead.
 
 ---
